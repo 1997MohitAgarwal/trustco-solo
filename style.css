@@ -212,6 +212,44 @@ a:hover {
     font-size: 0.875rem;
 }
 
+/* Trusted By Section */
+.trusted-by {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.trusted-container {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.trusted-title {
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.trusted-logos {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.trusted-logos li {
+    display: inline-block;
+}
+
+.trusted-logos img {
+    height: 25px; /* Adjust based on your logo sizes */
+    width: auto;
+    filter: grayscale(100%);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
@@ -272,6 +310,16 @@ a:hover {
         max-width: 130px;
         margin: 20px auto 0;
         display: block;
+    }
+    .trusted-container{
+        flex-direction: column;
+    }
+    .trusted-logos{
+        margin-top: 1rem;
+        gap:20px;
+    }
+    .trusted-logos img{
+        height: 18px;
     }
 }
 
