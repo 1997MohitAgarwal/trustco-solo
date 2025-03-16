@@ -608,7 +608,7 @@ a:hover {
         position: relative;
         display: flex;
         height: auto;
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .hero1 {
@@ -616,7 +616,7 @@ a:hover {
         left: 0;
         top: 0;
         width: 100%;
-        max-width: 130px;
+        max-width: 140px;
         margin: 0 auto;
         display: block;
     }
@@ -649,8 +649,8 @@ a:hover {
     }
 
     .hero {
-        height: 110vh;
-        padding: 40px 15px;
+        height: 50vh;
+        padding: 20px 15px;
     }
     .text-inner {
         width:100%;
@@ -678,4 +678,37 @@ a:hover {
     .card{
         width:100%;
     }
+    .bridge-section {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .contentbridge {
+        flex-direction: column-reverse;
+    }
+    .titlebridge{
+        font-size: 2rem;
+        text-align: center;
+        padding:20px 30px 0 30px;
+    }
+    .descriptionbridge{
+        font-size: 1.1rem;
+        text-align: center;
+        padding:0 20px;
+    }
+    .image-container {
+        width:100%;
+        padding:0;
+    }
+    .image-container img {
+        width:98%;
+        margin-bottom: 2rem;
+        border-radius: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .btnbridge {
+        padding: 10px 20px;
+        margin: auto;
+    }
+    
 }
