@@ -155,6 +155,7 @@ a:hover {
     padding: 120px 20px;
     background: rgb(243, 243, 243);
     position: relative;
+    overflow: hidden;
 }
 
 .hero h1 {
@@ -445,6 +446,11 @@ a:hover {
         margin: auto;
         width: 90vw;
         font-size: 2rem;
+    }
+
+    .hero {
+        height: 110vh;
+        padding: 20px 15px;
     }
 
     .cta-buttons {
