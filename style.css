@@ -156,6 +156,7 @@ a:hover {
     background: rgb(243, 243, 243);
     position: relative;
     overflow: hidden;
+    min-height: 87.7vh;
 }
 
 .hero h1 {
