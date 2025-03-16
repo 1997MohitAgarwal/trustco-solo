@@ -155,8 +155,6 @@ a:hover {
     padding: 120px 20px;
     background: rgb(243, 243, 243);
     position: relative;
-    overflow: hidden;
-    min-height: 87.7vh;
 }
 
 .hero h1 {
@@ -495,10 +493,5 @@ a:hover {
 
     .trusted-title {
         font-size: 1.1rem;
-    }
-
-    .hero {
-        height: 110vh;
-        padding: 40px 15px;
     }
 }
