@@ -407,7 +407,7 @@ a:hover {
 
 .cards {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -417,7 +417,7 @@ a:hover {
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     flex: 1;
-    max-width: 310px;
+    width:400px;
     text-align: left;
 }
 
