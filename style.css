@@ -913,7 +913,7 @@ a:hover {
 .footer-column h2 {
     color: #333;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bold;
     text-align: left;
 }
@@ -925,7 +925,7 @@ a:hover {
 }
 
 .footer-column ul li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     text-align: left;
 }
 
