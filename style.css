@@ -786,6 +786,66 @@ a:hover {
     font-weight: bold;
 }
 
+.banner-section {
+    width: 100%;
+    background-color: #0f0f16; /* Dark background */
+    color: white;
+    padding: 10px 10% 0 10%;
+}
+
+/* Flex container for layout */
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Left content */
+.banner-content {
+    max-width: 50%;
+}
+
+.banner-title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* Button */
+.banner-button {
+    background-color: #f4b400; /* Mustard yellow */
+    color: black;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.banner-button:hover {
+    background-color: #d89a00;
+}
+
+/* Subtext */
+.banner-subtext {
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Right image */
+.banner-image img {
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    height: auto;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
@@ -1060,6 +1120,19 @@ a:hover {
     }
     .blog-header h2{
         font-size: 1.5rem;
+    }
+    .banner-container {
+        padding-top:20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-content {
+        max-width: 100%;
+    }
+
+    .banner-image {
+        margin-top: 20px;
     }
 }
 
