@@ -858,7 +858,7 @@ a:hover {
     align-items: flex-start;
     justify-content: space-between;
     max-width: 1200px;
-    margin: auto;
+    gap:30px;
 }
 
 /* Left Section: Logo & Social Icons */
@@ -1226,6 +1226,26 @@ a:hover {
 
     .banner-image {
         margin-top: 20px;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-brand, .footer-description, .footer-links {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-links {
+        display: flex;
+        align-items: start;
+        gap:50px;
+    }
+    .footer-brand{
+        align-items: start;
     }
 }
 
