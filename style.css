@@ -355,6 +355,87 @@ a:hover {
     padding: 0 20px; 
 }
 
+.benefits{
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:50vh;
+    margin: 3rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.badge {
+    display: inline-block;
+    background: #1e3a8a;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-title {
+    font-size: 32px;
+    color: #222;
+    margin-top: 10px;
+}
+
+.header-text {
+    color: #555;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    width:400px;
+    text-align: left;
+}
+
+.card img {
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
