@@ -596,4 +596,16 @@ a:hover {
         font-size: 0.9rem;
         max-width: 95%;
     }
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+    }
+    .card{
+        width:100%;
+    }
 }
