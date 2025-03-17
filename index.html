@@ -6,19 +6,56 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <header>
-        <!-- Logo and Navigation -->
-         <h1>This is the header</h1>
-    </header>
 
-    <main>
-        <!-- Main Content Placeholder -->
-         <p>This is the main content</p>
-    </main>
-
-    <footer>
-        <!-- Footer Content -->
-        <p>This is the footer</p>
-    </footer>
+    <header id="hero">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger">☰</label>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./images/Logo.svg" alt="Trustco Logo">
+            <p>Trustco.</p>
+        </div>
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="btn btn-secondary">Log In</button>
+                <button class="btn btn-primary">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+</header>
+    <div class="hero">
+        <h1 class="heading">Find High-Potential Customers with <span class="highlight">Trustco.</span></h1>
+        <p>We provide sales teams and professionals with the knowledge, skill, and discipline they need to be 10x more successful.</p>
+        <div class="cta-buttons">
+            <button class="btn btn-primary">Get Started</button>
+            <button class="btn btn-secondary">Check Our Video</button>
+        </div>
+        <div class="ratings">
+            <span>⭐⭐⭐⭐⭐ 4900+ 5 Stars</span>
+        </div>
+        <div class="hero-images">
+            <img class="hero1" src="./images/Hero 5.svg" alt="Hero Image 1">
+            <img class="hero2" src="./images/Hero 6.svg" alt="Hero Image 2">
+        </div>
+    </div>
+    <section class="trusted-by">
+        <div class="trusted-container">
+            <h3 class="trusted-title">Trusted by the best in the world</h3>
+            <ul class="trusted-logos">
+                <li><img src="./images/Google.svg" alt="Google Logo"></li>
+                <li><img src="./images/Atlassian.svg" alt="Atlassian Logo"></li>
+                <li><img src="./images/Canon.svg" alt="Canon Logo"></li>
+                <li><img src="./images/Walmart.svg" alt="Walmart Logo"></li>
+                <li><img src="./images/Amazon.svg" alt="Amazon Logo"></li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>
