@@ -937,6 +937,45 @@ a:hover {
     color: #0056b3; /* Slight blue hover effect */
 }
 
+.credits {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 20px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.credits-text {
+    margin: 0;
+    font-weight: 500;
+}
+
+.credits-links {
+    display: flex;
+    gap: 25px; /* Adds spacing between links */
+}
+
+.credits-links a {
+    color: #6c757d;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.credits-links a:hover {
+    text-decoration: underline;
+}
+
+.credits-language-selector {
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
@@ -1249,6 +1288,12 @@ a:hover {
     }
     .footer-brand{
         align-items: start;
+    }
+    .credits {
+        padding:20px;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
     }
 }
 
