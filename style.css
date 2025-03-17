@@ -94,7 +94,7 @@ a:hover {
 }
 
 .logo p {
-    margin: 0; /* Remove default margin from paragraph */
+    margin: 0; 
 }
 
 /* Navigation Menu (Wraps Nav Links and Auth Buttons) */
@@ -128,13 +128,13 @@ a:hover {
 
 /* Hamburger Menu */
 .nav-toggle {
-    display: none; /* Hidden by default */
+    display: none;
 }
 
 .hamburger {
     font-size: 1.5rem;
     cursor: pointer;
-    display: none; /* Hidden on desktop */
+    display: none;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -231,8 +231,8 @@ a:hover {
 .hero-images {
     position: absolute;
     width: 100%;
-    height: 0; /* Prevents adding extra height */
-    pointer-events: none; /* Allows clicks to pass through */
+    height: 0; 
+    pointer-events: none; 
     z-index: 0;
 }
 
@@ -290,44 +290,37 @@ a:hover {
 }
 
 .trusted-logos img {
-    height: 25px; /* Adjust based on your logo sizes */
+    height: 25px; 
     width: auto;
     filter: grayscale(100%);
 }
 
 .hero-section {
     display: flex;
-    width:100%;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 0px 0px 0px;
     background-color: #1a2e44;
 }
 
-/* Text Content */
-.text-content {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-}
-
+/* Text Inner */
 .text-inner {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
-    gap:20px;  
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    padding: 40px 20px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
 }
 
-.text-content h1 {
+.text-inner h1 {
     font-size: 2.3rem;
     font-weight: bold;
-    max-width: 40vw;
-    padding: 20px;
     line-height: 1.2;
-    text-transform: uppercase;
+    padding: 0;
+    flex: 1; 
+    min-width: 0; 
 }
 
 .title-main {
@@ -335,22 +328,31 @@ a:hover {
 }
 
 .title-highlight {
-    color: #ffcc00;
+    color: #ffcc00; 
 }
 
-.text-content p {
-    font-size: 0.8rem;
-    max-width: 30vw;
-    margin-top: -15px;
-    padding: 0 20px;
+.text-inner p {
+    font-size: 1rem;
+    padding: 0;
     color: #ffffff;
-    text-transform: uppercase;
+    line-height: 1.5; 
+    flex: 1; 
+    max-width: 50%; 
+    margin-top:-20px;
+}
+
+/* Image Content */
+.image-content {
+    width: 100%;
+    position: relative;
+    text-align: center;
 }
 
 .hero-image {
-    margin-top: 1.8rem;
+    margin-top: 0;
     width: 100%;
     max-width: 900px;
+    padding: 0 20px; 
 }
 
 /* Responsive Design */
@@ -498,5 +500,19 @@ a:hover {
 
     .trusted-title {
         font-size: 1.1rem;
+    }
+    .text-inner {
+        width:100%;
+        flex-direction: column;
+        justify-items: left;
+        align-items: start;
+        gap: 20px;
+    }
+    .text-inner h1 {
+        font-size: 1.4rem;
+    }
+    .text-inner p {
+        font-size: 0.9rem;
+        max-width: 95%;
     }
 }
