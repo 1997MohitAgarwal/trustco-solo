@@ -504,6 +504,38 @@ a:hover {
     font-size: 18px;
 }
 
+.numbers-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 50px 20px;
+}
+
+.numbers-container {
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.numbers-item {
+    text-align: center;
+    line-height: 1;
+}
+
+.numbers-value {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1f4071;
+}
+
+.numbers-label {
+    font-size: 16px;
+    color: rgb(90, 84, 84) ;
+    font-weight: 600;
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
