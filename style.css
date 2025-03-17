@@ -746,5 +746,14 @@ a:hover {
         padding: 10px 20px;
         margin: auto;
     }
+    .numbers-section {
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .numbers-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+    }
     
 }
